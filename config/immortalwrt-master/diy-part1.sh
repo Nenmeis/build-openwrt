@@ -8,7 +8,10 @@
 
 # Add a feed source
 # sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
-
+sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall2' feeds.conf.default
+sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+sed -i '$a src-git kiddin9 https://dl.openwrt.ai/packages-24.10/aarch64_generic/kiddin9/' feeds.conf.default
+sed -i '$a src-git argonnew https://github.com/jerrykuku/luci-theme-argon.git;main' feeds.conf.default
 
 
 # other
